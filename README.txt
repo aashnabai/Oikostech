@@ -1,1 +1,1 @@
-Oikos Tech v2 - enhanced UI with floating buttons, testimonials, gallery, FAQ, and larger logo in header.
+Oikos Tech v3 - gallery & technician sections removed; quick contact moved to Contact page. Header/logo enlarged.
