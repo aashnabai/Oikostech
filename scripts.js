@@ -10,12 +10,3 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   });
 });
-
-// Intersection observer to add 'in' class for entry animations
-var io = new IntersectionObserver(function(entries){
-  entries.forEach(function(e){
-    if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
-  });
-}, {threshold:0.12});
-
-document.querySelectorAll('.card, .testimonial, .gallery-grid img, .service-card').forEach(function(el){ try{ io.observe(el);}catch(e){} });
